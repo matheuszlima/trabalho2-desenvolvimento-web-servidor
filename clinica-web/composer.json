@@ -1,0 +1,15 @@
+{
+    "name": "grupo/clinica-web",
+    "description": "Sistema de Clinica/Consultorio - Trabalho 2 - Desenvolvimento Web Servidor (UTFPR)",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.0",
+        "nesbot/carbon": "^2.72 || ^3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/"
+        ]
+    }
+}

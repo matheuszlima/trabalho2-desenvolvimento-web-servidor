@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Se o arquivo ou a pasta pedida NAO existir, envia tudo para o index.php (URLs transparentes)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L,QSA]
